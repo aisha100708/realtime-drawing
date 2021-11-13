@@ -30,4 +30,5 @@ function draw() {
     background(150);
     fill("pink");
     square(noseX, noseY, difference);
+    document.getElementById("side_length").innerHTML = "The length of the square is " + difference + "px";
 }
